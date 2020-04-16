@@ -2,6 +2,9 @@ require "bundler/setup"
 require "sinatra/activerecord"
 require 'ostruct'
 require 'tty-prompt'
+require "require_all"
+
+require_all "app"
 
 Bundler.require
 
